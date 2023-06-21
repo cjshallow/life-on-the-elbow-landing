@@ -55,6 +55,30 @@ img {
 	font-weight: 900;
 }
 
-.activity { 
-	border: 2px solid #3882F6;
+.caption {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+}
+.squares {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.subjects {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 15px;
+	font-size: 36px;
+}
+
+.event {
+	height: 200px;
+	width: 200px;
+	border-radius: 25px;
+	margin: 20px;
 }
