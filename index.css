@@ -1,0 +1,24 @@
+body {
+    display: flex;
+	flex-direction: column;
+}
+
+.Nav {
+	border: 2px solid green;
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 100px;
+	align-items: center;
+
+}
+
+ul {
+	list-style-type: none;
+	display: flex;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	margin: 0px 20px;
+}
