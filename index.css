@@ -1,17 +1,46 @@
+
 body {
     display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
 	margin: 0;
+	font-family: "Roboto", sans-serif;
 }
 
 .Nav {
 	display: flex;
 	justify-content: space-between;
-	padding: 20px 100px;
+	padding: 20px 300px;
 	align-items: center;
 	background-color: rgb(95, 172, 146);
+}
+
+.logoimg {
+	height: 100px;
+	width: 150px;
+}
+
+.main {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	background-color: rgb(95, 172, 146);
+	padding: 5px 300px 20px 300px;
+
+}
+
+/*find way to combine nav and main to consolidate CSS8?
+
+/*.topofpage {
+	border: 2px solid red;
+	*/
+
+.header {
+	box-sizing: border-box;
+	height: 250px;
+	width: 400px;
+	padding: 20px;
 }
 
 .Logo {
@@ -32,30 +61,22 @@ li {
 	margin: 0px 20px;
 }
 
-.header {
-	padding: 20px;
-	margin-left: 50px;
-}
-
-.main {
-	display: flex;
-	align-items: center;
-	background-color: rgb(95, 172, 146);
-}
-
 .subtext {
 	font-size: 18px;
-	color: #e5e7eb
+	color: #e5e7eb;
+	margin-bottom: 10px;
 }
 
 img {
 	height: 200px;
+	width: 400px;
 }
 
 .message {
 	color: #F9FAF8;
 	font-size: 48px;
 	font-weight: 900;
+	margin-bottom: 10px;
 }
 
 .caption {
@@ -68,6 +89,10 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.activity {
+	padding-bottom: 10px;
 }
 
 .subjects {
@@ -90,6 +115,7 @@ img {
 	display: flex;
 	flex-direction: column;
 	background-color: #e5e7eb;
+	padding: 0 40px;
 }
 
 .saying {
@@ -110,24 +136,25 @@ img {
 	margin: 0;
 	padding-right: 400px;
 	padding-bottom: 75px;	
+	margin-top: 10px;
 }
 
 .action {
 	display: flex;
-	align-items: center;
-	justify-content: flex-start;
+	align-items: flex-start;
 	flex-direction: column;
+	width: 300px;
 }
 
 .bluebox {
 	background-color: #5f98a5;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: space-evenly;
 	padding: 30px;
 	box-sizing: border-box;
 	height: 120px;
-	width: 700px;
+	width: 1000px;
 	border-radius: 10px;
 	color: #F9FAF8;
 }
@@ -136,7 +163,11 @@ img {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 50px 100px;
+	padding: 50px 300px;
+}
+
+.activity:hover {
+    background-color: #e5e7eb;
 }
 
 p {
@@ -149,4 +180,41 @@ p {
 	justify-content: center;
 	background-color: rgb(95, 172, 146);
 	padding: 20px;
+	color: #F9FAF8;
+}
+
+.signup2 {
+	color: #F9FAF8;
+	border-radius: 5px;
+	width: 100px;
+	background-color: #5f98a5;
+	padding: 10px;
+	border: none;
+}
+
+.signup {
+	border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+	border-radius: 5px;
+	width: 100px;
+	background-color: #5f98a5;
+	padding: 5px;
+}
+
+button:hover {
+	background-color: #e5e7eb;
+}
+
+.signup:hover {
+	background-color: #e5e7eb;
+	color: #1F2937;
+}
+
+button {
+	color: #F9FAF8;
+	border-radius: 5px;
+	width: 100px;
+	background-color: #5f98a5;
+	padding: 5px;
+	border: none;
 }
